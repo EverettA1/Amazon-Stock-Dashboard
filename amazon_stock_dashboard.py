@@ -28,7 +28,7 @@ avg_monthly_growth = data['% of change monthly'].mean()
 # Initialize the Dash app
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-# Layout of the dashboard
+# Layout of the dashboards
 app.layout = dbc.Container([
     html.H1("Amazon Stock Analysis Dashboard", className="mt-3 mb-4"),
 
