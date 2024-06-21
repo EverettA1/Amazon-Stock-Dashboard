@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output
 import dash_bootstrap_components as dbc
 
 # Load the dataset
-file_path = r'C:\Users\13025\OneDrive\Desktop\coding\amazon monthly.xlsx'
+file_path = r'amazon monthly.xlsx'
 try:
     data = pd.read_excel(file_path, sheet_name='AMAZON_monthly')
 except Exception as e:
